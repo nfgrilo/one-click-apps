@@ -1,6 +1,6 @@
 captainVersion: 4
 services:
-    $$cap_appname-instance:
+    $$cap_appname:
         image: mikekonan/exchange-proxy:$$cap_version
         restart: unless-stopped
         ports:
@@ -14,10 +14,10 @@ caproverOneClickApp:
 
             Enter your configuration parameters and click on next.
         end: >
-            Exchange proxy is deployed and available as $$cap_appname-instance. 
+            Exchange proxy is deployed and available as $$cap_appname.
     displayName: exchange-proxy
     isOfficial: false
-    description: Exchange proxy using WebSockets to maintain candlestick/klines data in memory, thus having great performance, reducing the number of API calls to the exchange API, decreases latency and CPU usage. There is no warranty of correct working. You take all risks of using this. All improvements are made by me on a voluntary basis in my spare time.
+    description: Exchange proxy using WebSockets to maintain candlestick/klines data in memory, thus having great performance, reducing the number of API calls to the exchange API, decreases latency and CPU usage.
     documentation: Taken from https://github.com/mikekonan/exchange-proxy
 
     variables:
@@ -30,5 +30,3 @@ caproverOneClickApp:
           defaultValue: 'latest-amd64'
           description: Check out the Docker pages for the valid tags https://hub.docker.com/r/mikekonan/exchange-proxy/tags
           validRegex: /^([^\s^\/])+$/
-
-
