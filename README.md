@@ -1,5 +1,6 @@
 ## Repo for CapRover One Click Apps
 
+
 ### How to create a one-click app (as of v1.8.0):
 First, have a look at [this simple example](https://github.com/caprover/one-click-apps/blob/master/public/v4/apps/privatebin.yml). Now, read on for more details:
 
@@ -83,9 +84,11 @@ To create your own repository:
 In order to add a third party repository:
 -   Login to your CapRover dashboard
 -   Go to **apps** and click on **One-Click Apps/Databases** and scrolldown to the bottom
--   Under **3rd party repositories:** copy  the URL, (for example: `https://Awes0meHub.github.io/caprover-one-click-apps`) and paste it in to the text box
+-   Under **3rd party repositories:** copy the URL:
+  `https://raw.githubusercontent.com/nfgrilo/one-click-apps/master/dist`
+  ...and paste it in to the text box
 -   Click the **_Connect New Repository_** button
 
-#### 3rd party repositorie
+#### 3rd party repositories
 -   Awes0meHub: [Github](https://github.com/Awes0meHub/caprover-one-click-apps) repository: `https://Awes0meHub.github.io/caprover-one-click-apps`
 -   Jordan-hall: [Github](https://github.com/Jordan-Hall/caprover-one-click-apps) repository: `https://oneclickapps.libertyware.io`
