@@ -1,0 +1,1 @@
+{"appList":["exchange-proxy"],"appDetails":[{"name":"exchange-proxy","displayName":"exchange-proxy","description":"Exchange proxy using WebSockets to maintain candlestick/klines data in memory, thus having great performance, reducing the number of API calls to the exchange API, decreases latency and CPU usage.","isOfficial":false,"logoUrl":"exchange-proxy.png"}]}
